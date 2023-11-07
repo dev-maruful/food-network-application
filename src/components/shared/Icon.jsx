@@ -12,9 +12,9 @@ const Icon = ({
           activeClass
             ? "border-4 border-[#E655271A] bg-[#E655271A]"
             : "bg-[#1010101A]"
-        } flex items-center justify-center rounded-md  cursor-pointer z-10 ${extraClassNames}`}
+        } flex items-center justify-center rounded-md cursor-pointer z-10 ${extraClassNames}`}
       >
-        <div className={`stroke-2 font-bold h-4 w-4 ${iconExtraClassNames}`}>
+        <div className={`stroke-2 font-bold h-5 w-5 ${iconExtraClassNames}`}>
           {icon}
         </div>
       </div>
