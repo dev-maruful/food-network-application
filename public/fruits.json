@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "category": "fruits",
     "name": "Orange",
     "vitamins": "C",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": 2,
     "category": "fruits",
     "name": "Apple",
     "vitamins": "C",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": 3,
     "category": "fruits",
     "name": "Avocado",
     "vitamins": "B6",
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": 4,
     "category": "fruits",
     "name": "Strawberry",
     "vitamins": "C",
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": 5,
     "category": "fruits",
     "name": "Mango",
     "vitamins": "A, C",
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": 6,
     "category": "fruits",
     "name": "Blueberry",
     "vitamins": "C, K",
@@ -174,7 +174,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": 7,
     "category": "fruits",
     "name": "Grape",
     "vitamins": "C, K",
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "id": "8",
+    "id": 8,
     "category": "fruits",
     "name": "Pineapple",
     "vitamins": "C, K",
