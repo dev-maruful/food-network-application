@@ -1,0 +1,234 @@
+[
+  {
+    "id": "1",
+    "category": "fruits",
+    "name": "Orange",
+    "vitamins": "C",
+    "images": [
+      "../public/images/fruits/orange-1.png",
+      "../public/images/fruits/orange-2.jpg",
+      "../public/images/fruits/orange-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "A Burst of Sunshine",
+        "description": "Oranges, nature's sun-kissed gift, bring a burst of sunshine to our lives."
+      },
+      {
+        "title": "A Brief History",
+        "description": "Oranges have a rich history that dates back centuries, originating in Southeast Asia."
+      },
+      {
+        "title": "The Many Shades of Orange",
+        "description": "These vibrant fruits come in various varieties, from sweet navel oranges to tangy blood oranges, each offering a unique flavor and nutritional profile. Whether you prefer the juiciness of a Valencia or the crimson allure of a Moro, oranges cater to a wide range of tastes. Oranges are not only delicious but also packed with essential nutrients, including vitamin C, fiber, and antioxidants. Their juicy, succulent flesh is a natural source of refreshment, and their versatility in both sweet and savory dishes is a testament to their culinary prowess."
+      },
+      {
+        "title": "Oranges in Everyday Life",
+        "description": "From morning glasses of freshly squeezed orange juice to zesty marinades for grilled chicken, oranges play a central role in our culinary adventures. Their tangy zest brightens up cakes, and their sweet, juicy segments adorn salads. Beyond the kitchen, oranges have a place in perfumes, cosmetics, and even holiday decorations. They symbolize abundance and good fortune in many cultures."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "category": "fruits",
+    "name": "Apple",
+    "vitamins": "C",
+    "images": [
+      "../public/images/fruits/apple-1.png",
+      "../public/images/fruits/apple-2.jpg",
+      "../public/images/fruits/apple-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "A Timeless Classic",
+        "description": "Apples, the timeless classic of the fruit world, offer a delicious and crisp bite of nature."
+      },
+      {
+        "title": "A Fruit with Deep Roots",
+        "description": "Apples have a rich history, with their origins dating back to the mountains of Kazakhstan in Central Asia.."
+      },
+      {
+        "title": "The Diverse World of Apples",
+        "description": "Apples come in a remarkable array of varieties, from the sweet and crunchy Honeycrisp to the tart and versatile Granny Smith. Each type of apple offers a unique flavor profile, making them perfect for snacking, baking, or turning into cider. Apples are a nutritional powerhouse, brimming with vitamins, fiber, and antioxidants. Their natural sweetness and versatility make them a staple in a wide range of culinary applications."
+      },
+      {
+        "title": "Apples in Our Daily Lives",
+        "description": "Apples play an integral role in our daily lives, from being the star of a homemade apple pie to fueling our on-the-go snacking. Their association with wisdom and knowledge in folklore, as seen in the story of the forbidden fruit in the Garden of Eden, further highlights their significance."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "category": "fruits",
+    "name": "Avocado",
+    "vitamins": "B6",
+    "images": [
+      "../public/images/fruits/avocado-1.png",
+      "../public/images/fruits/avocado-2.jpg",
+      "../public/images/fruits/avocado-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "Creamy Green Goodness",
+        "description": "Avocados, the epitome of creamy green goodness, have become a beloved staple in our diets."
+      },
+      {
+        "title": "A Fruit with an Ancient Legacy",
+        "description": "Avocados have a fascinating history that can be traced back to the ancient Mesoamerican civilizations, where they were cultivated for thousands of years."
+      },
+      {
+        "title": "The Many Faces of Avocados",
+        "description": "Avocados come in diverse varieties, each with its unique taste and texture. From the rich and buttery Has to the smooth, watery, and nutty flavor of Fuerte, avocados cater to a wide range of palates. Avocados are not only indulgent but also packed with healthy fats, fiber, vitamins, and minerals. They are a versatile ingredient, adding a luscious, creamy texture to dishes. Whether mashed into guacamole, sliced onto toast, or blended into smoothies, avocados offer a range of culinary possibilities."
+      },
+      {
+        "title": "Avocados in Everyday Cuisine",
+        "description": "From the beloved avocado toast trend to creamy avocado-based sauces and salad dressings, avocados have carved a prominent place in contemporary cuisine. Their nutritious profile and creamy texture have made them a symbol of healthy indulgence."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "category": "fruits",
+    "name": "Strawberry",
+    "vitamins": "C",
+    "images": [
+      "../public/images/fruits/strawberry-1.png",
+      "../public/images/fruits/strawberry-2.jpg",
+      "../public/images/fruits/strawberry-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "Nature's Sweet Gem",
+        "description": "Strawberries, nature's sweet gem, delight our taste buds with their vibrant red hue and juicy, irresistible flavor."
+      },
+      {
+        "title": "A Berry with a Storied Past",
+        "description": "Strawberries have a history that spans centuries, with their wild cousins growing in various parts of the world long before they were cultivated."
+      },
+      {
+        "title": "The Varied World of Strawberries",
+        "description": "Strawberries come in numerous varieties, from the classic garden strawberry to the petite, wild alpine strawberries. Each type boasts a unique taste and texture, making them perfect for snacking, desserts, or even savory dishes. Strawberries are not just delicious but also brimming with vitamins, fiber, and antioxidants. Their versatility in sweet treats like strawberry shortcakes and jams is legendary, while their tangy sweetness brightens up salads and pairs perfectly with savory dishes."
+      },
+      {
+        "title": "Strawberries in Everyday Delights",
+        "description": "From luscious strawberry ice cream on a hot summer's day to strawberries topping a stack of pancakes for breakfast, these berries hold a special place in our hearts and on our plates. They symbolize love and romance, often featured in romantic desserts and celebratory occasions."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "category": "fruits",
+    "name": "Mango",
+    "vitamins": "A, C",
+    "images": [
+      "../public/images/fruits/mango-1.png",
+      "../public/images/fruits/mango-2.jpg",
+      "../public/images/fruits/mango-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "The King of Fruits",
+        "description": "Mangoes, often hailed as the 'King of Fruits,' reign supreme with their luscious, tropical flavor."
+      },
+      {
+        "title": "A Fruit with an Exotic Heritage",
+        "description": "Mangoes have a rich history that traces back thousands of years, originating in South Asia and revered for their divine taste."
+      },
+      {
+        "title": "The Diversity of Mangoes",
+        "description": "Mangoes come in a dazzling array of varieties, from the sweet and fiber-free Ataulfo to the fragrant, stringy Alphonso. Each type offers a unique flavor profile, making them perfect for snacking, blending into smoothies, or gracing your favorite dishes with their tropical flair. Mangoes are not only delicious but also packed with vitamins, fiber, and antioxidants. Their sweet, juicy flesh is a true tropical delight, perfect for slicing into salads, making into refreshing sorbets, and complementing savory dishes with a touch of exotic sweetness."
+      },
+      {
+        "title": "Mangoes in Everyday Life",
+        "description": "Mangoes play a prominent role in the culinary traditions of tropical regions, where they're used in everything from salsas and chutneys to cocktails and desserts. Their vibrant color and sweet aroma make them a symbol of warmth and hospitality, often featured in celebrations and feasts."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "category": "fruits",
+    "name": "Blueberry",
+    "vitamins": "C, K",
+    "images": [
+      "../public/images/fruits/blueberry-1.png",
+      "../public/images/fruits/blueberry-2.jpg",
+      "../public/images/fruits/blueberry-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "Nature's Little Blue Gems",
+        "description": "Blueberries, nature's little blue gems, burst with flavor and charm in every bite."
+      },
+      {
+        "title": "A Berry with a Sweet History",
+        "description": "Blueberries have a history that dates back centuries, with indigenous North American communities celebrating their deliciousness long before they gained worldwide popularity."
+      },
+      {
+        "title": "The Diverse Landscape of Blueberries",
+        "description": "Blueberries come in various varieties, from the plump and sweet highbush blueberries to the petite, tangy wild blueberries. Each type offers a unique taste and texture, making them perfect for snacking, baking, or enhancing both sweet and savory dishes. Blueberries are not just delightful but also packed with antioxidants, vitamins, and fiber. Their versatility in pancakes, muffins, and pies is renowned, and they add a burst of tangy sweetness to salads and yogurt parfaits."
+      },
+      {
+        "title": "Blueberries in Everyday Delights",
+        "description": "From the classic blueberry muffin for breakfast to the fresh blueberry pie at a summer picnic, blueberries are an essential ingredient in a wide range of culinary creations. Their association with health and wellness has made them a symbol of vitality and longevity."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "category": "fruits",
+    "name": "Grape",
+    "vitamins": "C, K",
+    "images": [
+      "../public/images/fruits/grapes-1.png",
+      "../public/images/fruits/grapes-2.jpg",
+      "../public/images/fruits/grapes-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "Nature's Bite-Sized Jewels",
+        "description": "Grapes, nature's bite-sized jewels, offer a perfect combination of sweetness and refreshment in every tiny orb."
+      },
+      {
+        "title": "A Fruit with Ancient Roots",
+        "description": "Grapes have a history that dates back thousands of years, with their cultivation and consumption documented in various ancient civilizations."
+      },
+      {
+        "title": "The Variety of Grapes",
+        "description": "Grapes come in a wide array of varieties, from the plump and sweet seedless Thompson Seedless grapes to the aromatic Concord grapes. Each type offers a distinct flavor and texture, making them suitable for fresh snacking, winemaking, and culinary applications. Grapes are not just delicious but also rich in vitamins, antioxidants, and natural sugars. Their versatility in fruit salads, as raisins, and in the form of fine wines makes them a cherished ingredient with global appeal."
+      },
+      {
+        "title": "Grapes in Everyday Life",
+        "description": "From the cherished clusters of grapes in wine production to the delightful experience of a juicy grape bunch at a picnic, grapes hold a special place in our hearts and on our tables. They symbolize abundance, celebration, and fine living in various cultures around the world."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "category": "fruits",
+    "name": "Pineapple",
+    "vitamins": "C, K",
+    "images": [
+      "../public/images/fruits/pineapple-1.png",
+      "../public/images/fruits/pineapple-2.jpg",
+      "../public/images/fruits/pineapple-3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "title": "Nature's Crown Jewel",
+        "description": "Pineapples, nature's crown jewel, stand as a symbol of tropical elegance with their sweet and vibrant allure."
+      },
+      {
+        "title": "A Fruit with a History of Hospitality",
+        "description": "Pineapples have a rich history, with their origins tracing back to South America and becoming a symbol of welcome and hospitality in colonial America."
+      },
+      {
+        "title": "The Sweet Diversity of Pineapples",
+        "description": "Pineapples come in various varieties, from the larger, sweet Cayenne pineapple to the smaller and tangy Queen Victoria pineapple. Each type offers a unique flavor profile, making them perfect for fresh snacking, grilling, or adding a touch of exotic flair to culinary creations. Pineapples are not just delicious but also packed with vitamins, minerals, and enzymes. Their sweet, juicy flesh adds a burst of tropical flavor to fruit salads, desserts, and savory dishes, making them a versatile ingredient in global cuisine."
+      },
+      {
+        "title": "Pineapples in Everyday Delights",
+        "description": "From the classic piña colada on a beach vacation to the juicy pineapple rings topping a ham during a festive feast, pineapples are a key player in creating memorable and refreshing culinary experiences. Their association with warmth and hospitality makes them a symbol of friendship and welcome."
+      }
+    ]
+  }
+]
