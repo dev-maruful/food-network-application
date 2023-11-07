@@ -5,9 +5,9 @@
     "name": "Orange",
     "vitamins": "C",
     "images": [
-      "../public/images/fruits/orange-1.png",
-      "../public/images/fruits/orange-2.jpg",
-      "../public/images/fruits/orange-3.jpg"
+      "https://i.ibb.co/vkMWjYf/orange-1.png",
+      "https://i.ibb.co/d28ryFB/orange-2.jpg",
+      "https://i.ibb.co/HqR267p/orange-3.jpg"
     ],
     "paragraphs": [
       {
@@ -34,9 +34,9 @@
     "name": "Apple",
     "vitamins": "C",
     "images": [
-      "../public/images/fruits/apple-1.png",
-      "../public/images/fruits/apple-2.jpg",
-      "../public/images/fruits/apple-3.jpg"
+      "https://i.ibb.co/fGh1k20/apple-1.png",
+      "https://i.ibb.co/JccwkmJ/apple-2.jpg",
+      "https://i.ibb.co/5rMh4d6/apple-3.jpg"
     ],
     "paragraphs": [
       {
@@ -63,9 +63,9 @@
     "name": "Avocado",
     "vitamins": "B6",
     "images": [
-      "../public/images/fruits/avocado-1.png",
-      "../public/images/fruits/avocado-2.jpg",
-      "../public/images/fruits/avocado-3.jpg"
+      "https://i.ibb.co/1Tcttqj/avocado-1.png",
+      "https://i.ibb.co/vVbQKZ1/avocado-2.jpg",
+      "https://i.ibb.co/HTymxkr/avocado-3.jpg"
     ],
     "paragraphs": [
       {
@@ -92,9 +92,9 @@
     "name": "Strawberry",
     "vitamins": "C",
     "images": [
-      "../public/images/fruits/strawberry-1.png",
-      "../public/images/fruits/strawberry-2.jpg",
-      "../public/images/fruits/strawberry-3.jpg"
+      "https://i.ibb.co/9NLRVzk/strawberry-1.png",
+      "https://i.ibb.co/q0GTch2/strawberry-2.jpg",
+      "https://i.ibb.co/W5TgQxm/strawberry-3.jpg"
     ],
     "paragraphs": [
       {
@@ -121,9 +121,9 @@
     "name": "Mango",
     "vitamins": "A, C",
     "images": [
-      "../public/images/fruits/mango-1.png",
-      "../public/images/fruits/mango-2.jpg",
-      "../public/images/fruits/mango-3.jpg"
+      "https://i.ibb.co/9NkQKCB/mango-1.png",
+      "https://i.ibb.co/D1n0Vkj/mango-2.jpg",
+      "https://i.ibb.co/mFsZDr0/mango-3.jpg"
     ],
     "paragraphs": [
       {
@@ -150,9 +150,9 @@
     "name": "Blueberry",
     "vitamins": "C, K",
     "images": [
-      "../public/images/fruits/blueberry-1.png",
-      "../public/images/fruits/blueberry-2.jpg",
-      "../public/images/fruits/blueberry-3.jpg"
+      "https://i.ibb.co/0mwp2mM/blueberry-1.png",
+      "https://i.ibb.co/rQtLxVR/blueberry-2.jpg",
+      "https://i.ibb.co/JztZSKB/blueberry-3.jpg"
     ],
     "paragraphs": [
       {
@@ -179,9 +179,9 @@
     "name": "Grape",
     "vitamins": "C, K",
     "images": [
-      "../public/images/fruits/grapes-1.png",
-      "../public/images/fruits/grapes-2.jpg",
-      "../public/images/fruits/grapes-3.jpg"
+      "https://i.ibb.co/D1cywrN/grapes-1.png",
+      "https://i.ibb.co/WV5GPzF/grapes-2.jpg",
+      "https://i.ibb.co/bLxmrwK/grapes-3.jpg"
     ],
     "paragraphs": [
       {
@@ -208,9 +208,9 @@
     "name": "Pineapple",
     "vitamins": "C, K",
     "images": [
-      "../public/images/fruits/pineapple-1.png",
-      "../public/images/fruits/pineapple-2.jpg",
-      "../public/images/fruits/pineapple-3.jpg"
+      "https://i.ibb.co/0fJqQ5y/pineapple-1.png",
+      "https://i.ibb.co/w7QB1H8/pineapple-2.jpg",
+      "https://i.ibb.co/rpKJ3pM/pineapple-3.jpg"
     ],
     "paragraphs": [
       {

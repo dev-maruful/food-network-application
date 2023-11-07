@@ -5,9 +5,9 @@
     "name": "Broccoli",
     "vitamins": "C, K",
     "images": [
-      "../public/images/vegetables/broccoli-1.png",
-      "../public/images/vegetables/broccoli-2.jpg",
-      "../public/images/vegetables/broccoli-3.jpg"
+      "https://i.ibb.co/84M5Gtj/broccoli-1.png",
+      "https://i.ibb.co/pZBJy70/broccoli-2.jpg",
+      "https://i.ibb.co/PgyMSrX/broccoli-3.jpg"
     ],
     "paragraphs": [
       {
@@ -34,9 +34,9 @@
     "name": "Cabbage",
     "vitamins": "C, K",
     "images": [
-      "../public/images/vegetables/cabbage-1.png",
-      "../public/images/vegetables/cabbage-2.jpg",
-      "../public/images/vegetables/cabbage-3.jpg"
+      "https://i.ibb.co/Z2zNtpB/cabbage-1.png",
+      "https://i.ibb.co/hCxQTkJ/cabbage-2.jpg",
+      "https://i.ibb.co/7Cd2sKr/cabbage-3.jpg"
     ],
     "paragraphs": [
       {
@@ -63,9 +63,9 @@
     "name": "Cauliflower",
     "vitamins": "C, K",
     "images": [
-      "../public/images/vegetables/cauliflower-1.png",
-      "../public/images/vegetables/cauliflower-2.jpg",
-      "../public/images/vegetables/cauliflower-3.jpg"
+      "https://i.ibb.co/8ddMP3Z/cauliflower-1.png",
+      "https://i.ibb.co/ZSkpM5Y/cauliflower-2.jpg",
+      "https://i.ibb.co/pvp7XCW/cauliflower-3.jpg"
     ],
     "paragraphs": [
       {
@@ -92,9 +92,9 @@
     "name": "Cucumber",
     "vitamins": "A, C",
     "images": [
-      "../public/images/vegetables/cucumber-1.png",
-      "../public/images/vegetables/cucumber-2.jpg",
-      "../public/images/vegetables/cucumber-3.jpg"
+      "https://i.ibb.co/YB4mkq3/cucumber-1.png",
+      "https://i.ibb.co/8rfj3QL/cucumber-2.jpg",
+      "https://i.ibb.co/qN4X2CS/cucumber-3.jpg"
     ],
     "paragraphs": [
       {
@@ -121,9 +121,9 @@
     "name": "Lettuce",
     "vitamins": "C",
     "images": [
-      "../public/images/vegetables/lettuce-1.png",
-      "../public/images/vegetables/lettuce-2.jpg",
-      "../public/images/vegetables/lettuce-3.jpg"
+      "https://i.ibb.co/RTZKGv0/lettuce-1.png",
+      "https://i.ibb.co/vqQ5bhd/lettuce-2.jpg",
+      "https://i.ibb.co/wdVhFK1/lettuce-3.jpg"
     ],
     "paragraphs": [
       {
@@ -150,9 +150,9 @@
     "name": "Pumpkin",
     "vitamins": "B6",
     "images": [
-      "../public/images/vegetables/pumpkin-1.png",
-      "../public/images/vegetables/pumpkin-2.jpg",
-      "../public/images/vegetables/pumpkin-3.jpg"
+      "https://i.ibb.co/7Sc7mnJ/pumpkin-1.png",
+      "https://i.ibb.co/jDgKryr/pumpkin-2.jpg",
+      "https://i.ibb.co/WyrdSqm/pumpkin-3.jpg"
     ],
     "paragraphs": [
       {
@@ -179,9 +179,9 @@
     "name": "Silverbeet",
     "vitamins": "C",
     "images": [
-      "../public/images/vegetables/silverbeet-1.png",
-      "../public/images/vegetables/silverbeet-2.jpg",
-      "../public/images/vegetables/silverbeet-3.jpg"
+      "https://i.ibb.co/j5STWBs/silverbeet-1.png",
+      "https://i.ibb.co/MCx7f0s/silverbeet-2.jpg",
+      "https://i.ibb.co/6w23Pts/silverbeet-3.jpg"
     ],
     "paragraphs": [
       {
@@ -208,9 +208,9 @@
     "name": "Spinach",
     "vitamins": "C",
     "images": [
-      "../public/images/vegetables/spinach-1.png",
-      "../public/images/vegetables/spinach-2.jpg",
-      "../public/images/vegetables/spinach-3.jpg"
+      "https://i.ibb.co/X5nG2xZ/spinach-1.png",
+      "https://i.ibb.co/VwB6CJ6/spinach-2.jpg",
+      "https://i.ibb.co/9crng9m/spinach-3.jpg"
     ],
     "paragraphs": [
       {

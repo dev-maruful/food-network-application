@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.color-primary {
+.text-color-primary {
   @apply text-[#E55527]
 }
 

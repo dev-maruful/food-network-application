@@ -12,7 +12,7 @@ const Sidebar = () => {
     <aside className="w-20 h-screen flex flex-col justify-center items-center gap-9">
       <Icon
         icon={<HomeIcon />}
-        iconExtraClassNames={"color-primary"}
+        iconExtraClassNames={"text-color-primary"}
         activeClass
         sidebarIcon
       />

@@ -13,19 +13,25 @@ const Header = () => {
     <div className="flex items-center py-2 px-3">
       {/* Logo section */}
       <div className="w-1/3">
-        <Image src={logo} height={500} width={500} className="h-12 w-24" />
+        <Image
+          src={logo}
+          alt="logo"
+          height={500}
+          width={500}
+          className="h-12 w-24"
+        />
       </div>
 
       {/* Search bar section */}
       <div className="w-1/3 flex justify-center">
-        <SearchBar />
+        <SearchBar width={"w-96"} placeholder={"Search Best Food"} />
       </div>
 
       {/* Header icons section */}
       <div className="w-1/3 flex justify-end gap-6">
         <Icon
           icon={<SunIcon />}
-          iconExtraClassNames={"color-primary"}
+          iconExtraClassNames={"text-color-primary"}
           sidebarIcon={false}
           activeClass
         />
