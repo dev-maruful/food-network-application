@@ -16,9 +16,7 @@ export default function Home() {
     fetch("fruits.json")
       .then((res) => res.json())
       .then((data) => setFruits(data));
-  }, []);
 
-  useEffect(() => {
     fetch("vegetables.json")
       .then((res) => res.json())
       .then((data) => setVegetables(data));

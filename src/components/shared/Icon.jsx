@@ -10,7 +10,7 @@ const Icon = ({
       <div
         className={`${sidebarIcon ? "w-9 h-9" : "w-8 h-8"} ${
           activeClass
-            ? "border-4 border-[#E655271A] bg-[#E655271A]"
+            ? "border-4 border-[#E655271A] bg-[#E655271A] text-color-primary"
             : "bg-[#1010101A]"
         } flex items-center justify-center rounded-md cursor-pointer z-10 ${extraClassNames}`}
       >
