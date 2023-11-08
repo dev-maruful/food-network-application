@@ -1,9 +1,8 @@
 import Image from "next/image";
 import SocialMedia from "../shared/SocialMedia";
+import Ratings from "./Ratings";
 
 const Main = ({ currentFood }) => {
-  console.log(currentFood);
-
   return (
     <div className="space-y-11">
       {/* first section */}
@@ -21,13 +20,17 @@ const Main = ({ currentFood }) => {
                 <h3 className="text-lg font-bold mb-4">
                   {currentFood?.paragraphs?.first_para?.title}
                 </h3>
-                {currentFood?.paragraphs?.first_para?.description}
+                <p className="leading-6">
+                  {currentFood?.paragraphs?.first_para?.description}
+                </p>
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-4">
                   {currentFood?.paragraphs?.second_para?.title}
                 </h3>
-                {currentFood?.paragraphs?.second_para?.description}
+                <p className="leading-6">
+                  {currentFood?.paragraphs?.second_para?.description}
+                </p>
               </div>
             </div>
           </div>
@@ -49,12 +52,14 @@ const Main = ({ currentFood }) => {
           <h3 className="text-lg font-bold mb-4">
             {currentFood?.paragraphs?.third_para?.title}
           </h3>
-          {currentFood?.paragraphs?.third_para?.description}
+          <p className="leading-6">
+            {currentFood?.paragraphs?.third_para?.description}
+          </p>
         </div>
       </section>
 
       {/* third section */}
-      <section className="flex items-center">
+      <section className="flex items-center gap-11">
         <div className="w-1/2">
           <Image
             alt="food-image"
@@ -68,9 +73,16 @@ const Main = ({ currentFood }) => {
           <h3 className="text-lg font-bold mb-4">
             {currentFood?.paragraphs?.fourth_para?.title}
           </h3>
-          {currentFood?.paragraphs?.fourth_para?.description}
+          <p className="leading-6">
+            {currentFood?.paragraphs?.fourth_para?.description}
+          </p>
         </div>
       </section>
+
+      {/* Ratings */}
+      <div className="mt-16">
+        <Ratings />
+      </div>
     </div>
   );
 };

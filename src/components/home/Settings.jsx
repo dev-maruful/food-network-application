@@ -62,7 +62,7 @@ const Settings = () => {
                   }`}
                 ></div>
                 <div
-                  className={`absolute left-[2px] top-[2px] flex h-[14px] w-[14px] items-center justify-center rounded-full transition ${
+                  className={`absolute left-[2px] top-[1px] flex h-[14px] w-[14px] items-center justify-center rounded-full transition ${
                     isSubtitleChecked
                       ? "translate-x-full bg-white"
                       : "bg-gray-400"

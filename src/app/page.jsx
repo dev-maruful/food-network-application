@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Main content section */}
-      <section className="w-4/6 h-full bg-white rounded-2xl p-11">
+      <section className="w-4/6 h-full bg-white rounded-2xl p-11 mb-14">
         <Main currentFood={currentFood} />
       </section>
 
