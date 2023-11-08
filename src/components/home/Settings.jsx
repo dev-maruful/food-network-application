@@ -57,13 +57,15 @@ const Settings = () => {
                   className="sr-only"
                 />
                 <div
-                  className={`block h-[18px] w-[34px] rounded-full ${
+                  className={`block h-[17px] w-[34px] rounded-full ${
                     isSubtitleChecked ? "text-color-primary" : "bg-transparent"
                   }`}
                 ></div>
                 <div
-                  className={`absolute left-1 top-[2px] flex h-[14px] w-[14px] items-center justify-center rounded-full bg-white transition ${
-                    isSubtitleChecked ? "translate-x-full" : "bg-gray-500"
+                  className={`absolute left-[2px] top-[2px] flex h-[14px] w-[14px] items-center justify-center rounded-full transition ${
+                    isSubtitleChecked
+                      ? "translate-x-full bg-white"
+                      : "bg-gray-400"
                   }`}
                 ></div>
               </div>
