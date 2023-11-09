@@ -8,7 +8,7 @@ const socialMediaIcons = [facebook, linkedIn, twitter, more];
 
 const SocialMedia = () => {
   return (
-    <div className="lg:py-[60px] flex flex-row lg:flex-col gap-6">
+    <div className="lg:py-14 flex flex-row lg:flex-col gap-6">
       {socialMediaIcons.map((icon, index) => (
         <Image
           alt="social-media"

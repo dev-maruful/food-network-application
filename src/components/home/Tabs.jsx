@@ -27,10 +27,10 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName, setOpen }) => {
   return (
     <div className="space-y-4">
       {/* toggle tab */}
-      <div className="flex items-center w-full border-2 border-[#E6552726] p-1 rounded-[10px]">
+      <div className="flex items-center w-full border-2 border-[#E6552726] p-1 rounded-lg">
         <div
           onClick={() => setIsFruitsTab(true)}
-          className={`w-1/2 flex justify-center py-[10px] rounded-md text-sm font-semibold cursor-pointer ${
+          className={`w-1/2 flex justify-center py-3 rounded-md text-sm font-semibold cursor-pointer ${
             isFruitsTab && "bg-[#E655271A] text-color-primary"
           }`}
         >
@@ -38,7 +38,7 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName, setOpen }) => {
         </div>
         <div
           onClick={() => setIsFruitsTab(false)}
-          className={`w-1/2 flex justify-center py-[10px] rounded-md text-sm font-semibold cursor-pointer ${
+          className={`w-1/2 flex justify-center py-3 rounded-md text-sm font-semibold cursor-pointer ${
             !isFruitsTab && "bg-[#E655271A] text-color-primary"
           }`}
         >
@@ -78,7 +78,7 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName, setOpen }) => {
                     setOpen(false);
                   }}
                   key={fruit.id}
-                  className={`p-2 rounded-[10px] flex items-center gap-4 cursor-pointer ${
+                  className={`p-2 rounded-lg flex items-center gap-4 cursor-pointer ${
                     foodName === fruit.name && "border-2 border-[#E55527]"
                   }`}
                 >
@@ -110,7 +110,7 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName, setOpen }) => {
                     setOpen(false);
                   }}
                   key={vegetable.id}
-                  className={`p-2 rounded-[10px] flex items-center gap-4 cursor-pointer ${
+                  className={`p-2 rounded-lg flex items-center gap-4 cursor-pointer ${
                     foodName === vegetable.name && "border-2 border-[#E55527]"
                   }`}
                 >

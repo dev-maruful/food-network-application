@@ -14,7 +14,7 @@ import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [href, setHref] = useState(pathname);
+  const [path, setPath] = useState(pathname);
 
   const navItems = [
     {
@@ -43,11 +43,11 @@ const Navbar = () => {
     <aside className="lg:w-20 py-3 lg:py-0 lg:h-[calc(100vh-64px)] flex flex-row lg:flex-col justify-center items-center gap-9">
       {navItems.map((item) => (
         <Link
-          onClick={() => setHref(item.href)}
+          onClick={() => setPath(item.href)}
           key={item.href}
           href={item.href}
         >
-          <Icon icon={item.icon} sidebarIcon activeClass={href === item.href} />
+          <Icon icon={item.icon} sidebarIcon activeClass={path === item.href} />
         </Link>
       ))}
     </aside>

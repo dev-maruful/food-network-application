@@ -51,6 +51,7 @@ export default function Home() {
         />
       </section>
 
+      {/* Drawer section */}
       <section onClick={() => setDrawerOpen(true)} className="lg:hidden">
         <div className="bg-white px-4 py-3 rounded-lg flex items-center justify-between">
           <div className="flex gap-3 items-center">
@@ -76,12 +77,12 @@ export default function Home() {
       </section>
 
       {/* Main content section */}
-      <section className="lg:w-4/6 h-full bg-white rounded-2xl p-4 lg:p-11 mb-14">
+      <section className="lg:w-4/6 h-full bg-white rounded-lg lg:rounded-2xl p-4 lg:p-11 mb-14">
         <Main currentFood={currentFood} />
       </section>
 
       {/* Settings section */}
-      <section className="lg:w-1/6 hidden lg:block">
+      <section className="lg:w-1/6 h-full hidden lg:block">
         <Settings />
       </section>
     </div>

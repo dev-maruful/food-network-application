@@ -3,7 +3,7 @@ import errorImage from "../../../public/images/post/errorImage.png";
 
 const Message = () => {
   return (
-    <div className="bg-white w-full h-screen lg:h-full rounded-[10px] flex items-center justify-center">
+    <div className="bg-white w-full h-screen lg:h-full rounded-lg flex items-center justify-center">
       <div className="space-y-6 lg:space-y-11 flex flex-col items-center py-4 lg:py-0">
         <Image
           alt="error-image"

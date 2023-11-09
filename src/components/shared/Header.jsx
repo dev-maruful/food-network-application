@@ -11,7 +11,7 @@ import Icon from "./Icon";
 
 const Header = () => {
   return (
-    <div className="flex items-center py-2 px-3 justify-between">
+    <section className="flex items-center py-2 px-3 justify-between">
       {/* Logo section */}
       <div className="w-1/3">
         <Image
@@ -55,7 +55,7 @@ const Header = () => {
         </div>
         <Icon icon={<Bars3Icon />} sidebarIcon={false} activeClass={false} />
       </div>
-    </div>
+    </section>
   );
 };
 

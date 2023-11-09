@@ -14,7 +14,7 @@ const Settings = () => {
 
   return (
     <section className="w-full h-full bg-white rounded-2xl p-4">
-      <div className="border border-[#1010101A] p-[10px] rounded-lg">
+      <div className="border border-[#1010101A] p-2 rounded-lg">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">
             <Cog6ToothIcon className="h-5 w-5 text-color-primary" />
@@ -34,7 +34,7 @@ const Settings = () => {
             <input type="range" min={0} max="100" value="50" />
           </div>
           <div className="w-full">
-            <p className="text-sm font-medium mb-[10px]">Choose Vitamin Type</p>
+            <p className="text-sm font-medium mb-2">Choose Vitamin Type</p>
             <div className="bg-[#1010101A] p-2 rounded-md flex items-center justify-between">
               <p>All Vitamin</p>
               <ChevronDownIcon className="h-5 w-5" />
@@ -44,7 +44,7 @@ const Settings = () => {
             <p className="text-sm font-medium">Turn off Subtitle</p>
             <label className="flex cursor-pointer select-none items-center">
               <div
-                className={`relative border rounded-[10px] ${
+                className={`relative border rounded-lg ${
                   isSubtitleChecked
                     ? "border-none bg-color-primary"
                     : "border-gray-300"
@@ -57,12 +57,12 @@ const Settings = () => {
                   className="sr-only"
                 />
                 <div
-                  className={`block h-[17px] w-[34px] rounded-full ${
+                  className={`block h-4 w-9 rounded-full ${
                     isSubtitleChecked ? "text-color-primary" : "bg-transparent"
                   }`}
                 ></div>
                 <div
-                  className={`absolute left-[2px] top-[1px] flex h-[14px] w-[14px] items-center justify-center rounded-full transition ${
+                  className={`absolute left-[1px] top-0 flex h-4 w-4 items-center justify-center rounded-full transition ${
                     isSubtitleChecked
                       ? "translate-x-full bg-white"
                       : "bg-gray-400"

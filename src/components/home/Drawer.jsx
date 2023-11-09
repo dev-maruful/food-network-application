@@ -28,7 +28,7 @@ export default function Drawer({ open, setOpen, children }) {
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <Dialog.Panel className="relative flex w-full max-w-[300px] flex-col bg-white pb-12 shadow-xl rounded-r-2xl">
+            <Dialog.Panel className="relative flex w-full max-w-xs flex-col bg-white pb-12 shadow-xl rounded-r-2xl">
               <div className="overflow-y-auto">
                 <div className="p-4 w-full mx-auto mb-6">{children}</div>
               </div>

@@ -1,27 +1,14 @@
-"use client";
-
 import Image from "next/image";
 import SocialMedia from "../shared/SocialMedia";
 import Ratings from "./Ratings";
-import Drawer from "./Drawer";
-import { useState } from "react";
 
 const Main = ({ currentFood }) => {
-  const [drawerOpen, setDrawerOpen] = useState(false);
-
   return (
     <div className="flex flex-col-reverse lg:flex-row">
       {/* social media */}
       <div className="lg:w-1/12 mt-6 lg:mt-0">
         <SocialMedia />
       </div>
-
-      {/* <button onClick={() => setDrawerOpen(true)}>hello</button> */}
-
-      {/* <Drawer open={drawerOpen} setOpen={setDrawerOpen}> */}
-      {/* <NavListWithIcons /> */}
-      {/* <div>hello</div> */}
-      {/* </Drawer> */}
 
       <div className="space-y-11 w-full lg:w-11/12">
         {/* first section */}
@@ -50,13 +37,13 @@ const Main = ({ currentFood }) => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 flex items-center justify-center">
               <Image
                 alt="food-image"
                 src={currentFood?.images?.second_img}
                 height={500}
                 width={500}
-                className="rounded-[10px] lg:rounded-[30px] lg:w-[520px] h-32 lg:h-80 object-cover"
+                className="rounded-lg lg:rounded-[30px] w-full h-32 lg:h-80 object-cover"
               />
             </div>
           </div>
@@ -76,13 +63,13 @@ const Main = ({ currentFood }) => {
 
         {/* third section */}
         <section className="flex flex-col lg:flex-row items-center gap-11">
-          <div className="lg:w-1/2">
+          <div className="w-full lg:w-1/2">
             <Image
               alt="food-image"
               src={currentFood?.images?.third_img}
               height={500}
               width={500}
-              className="rounded-[10px] lg:rounded-[30px] lg:w-[520px] h-32 lg:h-80 object-cover"
+              className="rounded-lg lg:rounded-[30px] w-full h-32 lg:h-80 object-cover"
             />
           </div>
           <div className="lg:w-1/2">
