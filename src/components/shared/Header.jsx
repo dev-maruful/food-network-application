@@ -8,12 +8,13 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/react/24/solid";
 import Icon from "./Icon";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <section className="flex items-center py-2 px-3 justify-between">
       {/* Logo section */}
-      <div className="w-1/3">
+      <Link href="/" className="w-1/3">
         <Image
           src={logo}
           alt="logo"
@@ -21,7 +22,7 @@ const Header = () => {
           width={500}
           className="h-12 w-24"
         />
-      </div>
+      </Link>
 
       {/* Search bar section */}
       <div className="hidden w-1/3 lg:flex justify-center">
