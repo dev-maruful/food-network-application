@@ -6,6 +6,7 @@ const Video = () => {
     <div className="bg-white w-full h-full rounded-[10px] flex items-center justify-center">
       <div className="space-y-11 flex flex-col items-center">
         <Image
+          alt="error-image"
           src={errorImage}
           height={500}
           width={500}

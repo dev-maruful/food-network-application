@@ -40,7 +40,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="w-20 h-screen flex flex-col justify-center items-center gap-9">
+    <aside className="w-20 h-[calc(100vh-64px)] flex flex-col justify-center items-center gap-9">
       {navItems.map((item) => (
         <Link
           onClick={() => setHref(item.href)}

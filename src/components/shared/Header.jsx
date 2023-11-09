@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/images/logos/food_network.png";
+import logo from "../../../public/images/logos/logo.png";
 import SearchBar from "./SearchBar";
 import {
   SunIcon,

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import SearchBar from "../shared/SearchBar";
 import Icon from "../shared/Icon";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
@@ -24,8 +23,6 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName }) => {
       vitamins: vegetable.vitamins,
     };
   });
-
-  // console.log(foodName);
 
   return (
     <div className="space-y-4">
