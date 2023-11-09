@@ -5,12 +5,13 @@ import {
   SunIcon,
   ArrowsUpDownIcon,
   Bars3Icon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/24/solid";
 import Icon from "./Icon";
 
 const Header = () => {
   return (
-    <div className="flex items-center py-2 px-3">
+    <div className="flex items-center py-2 px-3 justify-between">
       {/* Logo section */}
       <div className="w-1/3">
         <Image
@@ -23,23 +24,35 @@ const Header = () => {
       </div>
 
       {/* Search bar section */}
-      <div className="w-1/3 flex justify-center">
+      <div className="hidden w-1/3 lg:flex justify-center">
         <SearchBar width={"w-96"} placeholder={"Search Best Food"} />
       </div>
 
       {/* Header icons section */}
       <div className="w-1/3 flex justify-end gap-6">
-        <Icon
-          icon={<SunIcon />}
-          iconExtraClassNames={"text-color-primary"}
-          sidebarIcon={false}
-          activeClass
-        />
-        <Icon
-          icon={<ArrowsUpDownIcon />}
-          sidebarIcon={false}
-          activeClass={false}
-        />
+        <div className="hidden lg:block">
+          <Icon
+            icon={<SunIcon />}
+            iconExtraClassNames={"text-color-primary"}
+            sidebarIcon={false}
+            activeClass
+          />
+        </div>
+        <div className="hidden lg:block">
+          <Icon
+            icon={<ArrowsUpDownIcon />}
+            sidebarIcon={false}
+            activeClass={false}
+          />
+        </div>
+        <div className="lg:hidden">
+          <Icon
+            icon={<MagnifyingGlassIcon />}
+            iconExtraClassNames={"text-color-primary"}
+            sidebarIcon={false}
+            activeClass
+          />
+        </div>
         <Icon icon={<Bars3Icon />} sidebarIcon={false} activeClass={false} />
       </div>
     </div>

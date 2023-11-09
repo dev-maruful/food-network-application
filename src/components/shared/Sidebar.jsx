@@ -12,7 +12,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
-const Sidebar = () => {
+const Navbar = () => {
   const pathname = usePathname();
   const [href, setHref] = useState(pathname);
 
@@ -40,7 +40,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="w-20 h-[calc(100vh-64px)] flex flex-col justify-center items-center gap-9">
+    <aside className="lg:w-20 py-3 lg:py-0 lg:h-[calc(100vh-64px)] flex flex-row lg:flex-col justify-center items-center gap-9">
       {navItems.map((item) => (
         <Link
           onClick={() => setHref(item.href)}
@@ -54,4 +54,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Navbar;

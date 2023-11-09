@@ -3,14 +3,14 @@ import errorImage from "../../../public/images/post/errorImage.png";
 
 const More = () => {
   return (
-    <div className="bg-white w-full h-full rounded-[10px] flex items-center justify-center">
-      <div className="space-y-11 flex flex-col items-center">
+    <div className="bg-white w-full h-screen lg:h-full rounded-[10px] flex items-center justify-center">
+      <div className="space-y-6 lg:space-y-11 flex flex-col items-center py-4 lg:py-0">
         <Image
           alt="error-image"
           src={errorImage}
           height={500}
           width={500}
-          className="h-72 w-[526px]"
+          className="lg:h-72 lg:w-[526px]"
         />
         <h2 className="font-bold text-3xl">This Page Is Empty</h2>
       </div>

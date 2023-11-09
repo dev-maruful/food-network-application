@@ -13,7 +13,7 @@ const Settings = () => {
   };
 
   return (
-    <section className="w-1/6 h-full bg-white rounded-2xl p-4">
+    <section className="w-full h-full bg-white rounded-2xl p-4">
       <div className="border border-[#1010101A] p-[10px] rounded-lg">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">

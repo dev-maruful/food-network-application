@@ -3,7 +3,7 @@ import Icon from "../shared/Icon";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
-const Tabs = ({ fruits, vegetables, foodName, setFoodName }) => {
+const Tabs = ({ fruits, vegetables, foodName, setFoodName, setOpen }) => {
   const [isFruitsTab, setIsFruitsTab] = useState(true);
 
   const fruitsForTab = fruits.map((fruit) => {
@@ -73,7 +73,10 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName }) => {
           {isFruitsTab
             ? fruitsForTab.map((fruit) => (
                 <div
-                  onClick={() => setFoodName(fruit.name)}
+                  onClick={() => {
+                    setFoodName(fruit.name);
+                    setOpen(false);
+                  }}
                   key={fruit.id}
                   className={`p-2 rounded-[10px] flex items-center gap-4 cursor-pointer ${
                     foodName === fruit.name && "border-2 border-[#E55527]"
@@ -102,7 +105,10 @@ const Tabs = ({ fruits, vegetables, foodName, setFoodName }) => {
               ))
             : vegetablesForTab.map((vegetable) => (
                 <div
-                  onClick={() => setFoodName(vegetable.name)}
+                  onClick={() => {
+                    setFoodName(vegetable.name);
+                    setOpen(false);
+                  }}
                   key={vegetable.id}
                   className={`p-2 rounded-[10px] flex items-center gap-4 cursor-pointer ${
                     foodName === vegetable.name && "border-2 border-[#E55527]"
